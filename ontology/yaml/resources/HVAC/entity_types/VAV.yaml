@@ -464,3 +464,13 @@ VAV_RD_CO2C:
   - VAV
   - RD
   - CO2C
+
+  # Additional type or 50RDA
+  VAV_HWZTC_CHWZTC:
+  description: "VAV with no damper, zone temperature control and supply air temperature monitoring."
+  is_canonical: true
+  implements:
+  - VAV
+  - CHWZTC
+  - HWZTC
+  - DTM
