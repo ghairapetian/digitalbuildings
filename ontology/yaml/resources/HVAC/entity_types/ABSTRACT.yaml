@@ -4400,3 +4400,15 @@ HWDDC:
   - discharge_air_temperature_sensor
   implements:
   - CONTROL
+
+HLSC:
+  description: "Fan two-speed (low/high) speed control"
+  is_abstract: true
+  opt_uses:
+  - low_speed_status
+  - high_speed_status
+  uses:
+  - low_speed_command
+  - high_speed_command
+  implements:
+  - CONTROL
