@@ -1678,6 +1678,10 @@ literals:
 ## New field for SDC
 - shade_extent_percentage_sensor
 
+## New field for VAV
+- high_limit_zone_air_co2_concentration_setpoint
+- low_limit_zone_air_co2_concentration_setpoint
+
 ## New alarms added 1/25/23
 - failed_circulation_pump_alarm:
   - ACTIVE

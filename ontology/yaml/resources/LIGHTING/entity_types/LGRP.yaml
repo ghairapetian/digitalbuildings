@@ -249,3 +249,15 @@ LGRP_DC_MS_IM:
   - DC
   - MS
   - IM
+
+LGRP_SS_DC_MS_LC_SC:
+  id: "1231780965257336833"
+  description: "Non-canonical lighting groups with brightness, motion sensing and illuminance monitoring"
+  is_canonical: false
+  implements:
+  - LGRP
+  - SS
+  - DC
+  - MS
+  - LC
+  - SC
