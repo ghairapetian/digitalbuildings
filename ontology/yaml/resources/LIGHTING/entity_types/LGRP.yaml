@@ -251,6 +251,15 @@ LGRP_SS_DC_MS_LC_SC:
   - LC
   - SC
 
+LGRP_SS_DC_MS:
+  description: "Lighting group with brightness control and motion sensing."
+  is_canonical: true
+  implements:
+  - LGRP
+  - SS
+  - DC
+  - MS
+
 LGRP_SS_DC_MS_LC:
   description: "Lighting group with brightness, motion sensing and illuminance control"
   is_canonical: true
