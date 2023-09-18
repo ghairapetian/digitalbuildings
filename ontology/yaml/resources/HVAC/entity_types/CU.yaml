@@ -44,6 +44,7 @@ CU_DFSS_DFVSC_CHWZTC_HWZTC_RTM_ZHM:
   - ZHM
 
 CU_DFSS_DFVSC_CHWZTC_HWZTC_RTM_ZHM_CO2CDSP_PDSCV_RDC:
+  guid: "e17b91f8-99be-4870-8ee3-50250999e6d7"
   description: "Compartment unit on discharge side with start/stop, status, cooling and heating (zone temp control), CO2 control with supply and return dampers."
   is_canonical: true
   implements:

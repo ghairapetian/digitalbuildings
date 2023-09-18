@@ -252,6 +252,7 @@ LGRP_SS_DC_MS_LC_SC:
   - SC
 
 LGRP_SS_DC_MS:
+  guid: "31414a96-c9f4-41e2-8706-19ee05e0a50c"
   description: "Lighting group with brightness control and motion sensing."
   is_canonical: true
   implements:
@@ -261,6 +262,7 @@ LGRP_SS_DC_MS:
   - MS
 
 LGRP_SS_DC_MS_LC:
+  guid: "31414a96-c9f4-41e2-8706-19ee05e0a50d"
   description: "Lighting group with brightness, motion sensing and illuminance control"
   is_canonical: true
   implements:
